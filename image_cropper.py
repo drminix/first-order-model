@@ -4,7 +4,7 @@ from absl import flags
 from absl import app
 
 FLAGS = flags.FLAGS
-flags.DEFINE_string("input","input/test.mov", "input image")
+flags.DEFINE_string("input","input/intro2_.mov", "input image")
 flags.DEFINE_string("output","output/cropped.avi", "output image")
 flags.DEFINE_string("command", "findroi", "findroi or produce image")
 flags.DEFINE_integer("width", 300, "default size")
