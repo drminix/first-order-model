@@ -4,8 +4,8 @@ from absl import flags
 from absl import app
 
 FLAGS = flags.FLAGS
-flags.DEFINE_string("input","input/intro2_.mov", "input image")
-flags.DEFINE_string("output","output/cropped.avi", "output image")
+flags.DEFINE_string("input",r"D:\youtube\youtube video resources\12_deepfake_music2\deepfake\intro_female2_singpart.mov", "input image")
+flags.DEFINE_string("output",r"E:\Google Drive\first-order-motion-model\cropped_intro_female2_singpart.avi", "output image")
 flags.DEFINE_string("command", "findroi", "findroi or produce image")
 flags.DEFINE_integer("width", 300, "default size")
 # Preparing Track Bars
